@@ -1,27 +1,52 @@
 .headtitle {
     margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
   text-align: center;  
 }
+.bg {
+  position: absolute;
+  top: 0;
+  width: 54%;
+}
+.bg-2 {
+  position: fixed;
+  width: 10vw;
+  left: -5%;
+  top: 0;
+ 
+}
+.bg-3 {
+  position: fixed;
+  width: 9%;
+  right: 8%;
+  bottom: 0;
+  
+}
+
 
 h1 {
   font-family: "Dela Gothic One", sans-serif;
-  font-size: xxx-large;
+  font-size: 4vw;
   color: #5645ff;
   letter-spacing: 0px;
   margin-bottom: 25px;
+ 
+  
 }
 h2 {
   font-family: "Advent Pro", sans-serif;
-  font-size: x-large;
+  font-size: 2vw;
   color: #5645ff;
   margin-bottom: 50px;
 }
 h3 {
   font-family: "Dela Gothic One", sans-serif;
-  font-size: large;
+  font-size: 1.5vw;
   color: black;
   text-transform: uppercase;
   margin: 1%;
+  line-height: normal;
 }
 .v 
 {
@@ -58,6 +83,10 @@ h3 {
 a:hover div {
   height: 100px;
   opacity: 100%;
+  color: #000;
+}
+a:active{
+  color: #000;
 }
 img {
   max-width: 200%;
